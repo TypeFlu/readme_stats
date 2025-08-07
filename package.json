@@ -70,8 +70,5 @@
   },
   "lint-staged": {
     "*.{js,css,md}": "prettier --write"
-  },
-  "engines": {
-    "node": ">=22.18.0"
   }
 }
