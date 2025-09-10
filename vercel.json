@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 10,
+      "runtime": "nodejs22.x"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/TypeFlu/readme_stats",
+      "permanent": true
+    }
+  ]
+}
