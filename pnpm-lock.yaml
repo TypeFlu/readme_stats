@@ -1167,7 +1167,6 @@ packages:
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
-
   eslint-plugin-jsdoc@56.1.2:
     resolution: {integrity: sha512-g30LmgNkpKsKNge4NKtoARCvGvGYHeCQjEWCs5xlNwHxdwVvd0rZaovHmD/D0of0H1bqcyFYv6WXDVAezndstw==}
     engines: {node: '>=20.11.0'}
@@ -3631,7 +3630,6 @@ snapshots:
   eslint-config-prettier@10.1.8(eslint@9.35.0):
     dependencies:
       eslint: 9.35.0
-
   eslint-plugin-jsdoc@56.1.2(eslint@9.35.0):
     dependencies:
       '@es-joy/jsdoccomment': 0.58.0
